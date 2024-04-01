@@ -14,6 +14,8 @@ require_once $_tests_dir . '/includes/functions.php';
 function _manually_load_plugin() {
 	require_once( __DIR__ . '/../../pressbooks/hm-autoloader.php' );
 	require_once( __DIR__ . '/../../pressbooks/pressbooks.php' );
+	require_once( __DIR__ . '/../../pressbooks/requires.php' );
+	require_once( __DIR__ . '/../../pressbooks/requires-admin.php' );
 	require_once( __DIR__ . '/../excalibur.php' );
 }
 
